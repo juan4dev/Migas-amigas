@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="styles/carousel.css" />
+  <title>Migas amigas</title>
+</head>
+
+<body>
+  <div class="wrapper divider-color">
+    <header class="main-head">
+      <ul class="navigation">
+        <li>
+          <button type="button" onclick="changeLanguage('ES')">
+            <img class="icon" src="./assets/images/spanish-language.svg" />
+          </button>
+        </li>
+        <li>
+          <button type="button" onclick="changeLanguage('PR')">
+            <img class="icon" src="./assets/images/portugal.svg" />
+          </button>
+        </li>
+      </ul>
+
+      <div class="main-head-text">
+        <a href="./inicio.html"><img src="./assets/images/logo.png" style="width: 80%" /></a>
+        <a href="./inicio.html">
+            <h1 data-string="MAIN_SUMARY">Migas amigas</h1>
+        </a>
+    </div>
+      <ul class="navigation">
+        <li>
+          <a href="./inicio.html" class="js-translate" data-string="INICIO">Inicio</a>
+        </li>
+        <li>
+          <a href="./pages/productos.html" class="js-translate" data-string="PRODUCTOS">Productos</a>
+        </li>
+        <li>
+          <a href="./pages/contacto.html" class="js-translate" data-string="CONTACTO">Contacto</a>
+        </li>
+      </ul>
+    </header>
+
+    <article class="content">
+      <H2 style="font-family: Pacifico-Regular; font-weight: bold">Inicio</H2>
+      <div class="slideshow-container" style="height: 60%">
+        <div class="mySlides fade">
+          <img src="./assets/images/step_1.png" style="width: 85%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/images/step_2.png" style="width: 85%" />
+        </div>
+      </div>
+      <hr />
+      <h2 class="js-translate" data-string="HOME_INFO" style="text-align: center;"><strong>Somos panaderos artesanos,
+          nos gusta el pan en la cesta del pan. El que sabe y huele como el del horno de nuestros abuelos…</strong></h2>
+
+    </article>
+
+    <aside class="side">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11925.506157183525!2d-0.8961310510404109!3d41.64760585414463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5914d78f5f9971%3A0x4693de5c5b2b1c68!2sLa%20Panader%C3%ADa!5e0!3m2!1ses!2ses!4v1607863742947!5m2!1ses!2ses"
+        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0">
+      </iframe>
+    </aside>
+    <div class="ad">
+      <img class="icon" src="./assets/images/publi.png" style="width: 100%;height: 100%" />
+    </div>
+    <footer class="main-footer">
+
+      <div>
+        <img class="icon" src="./assets/images/home-address.svg" />
+        <span>c/ calle el mejor pan</span>
+      </div>
+
+      <div>
+        <img class="icon" src="./assets/images/phone-call.svg" />
+        <span>999 - 888 - 777</span>
+      </div>
+
+      <div>
+        <img class="icon" src="./assets/images/email.svg" />
+        <a href="mailto:support@company.com">migas_amigas@company.com</a>
+      </div>
+    </footer>
+  </div>
+  <script src="./scripts/script.js"></script>
+  <script src="./scripts/carousel.js"></script>
+</body>
+
+</html>
