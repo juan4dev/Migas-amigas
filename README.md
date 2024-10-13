@@ -2,7 +2,7 @@
 
 ## Live Demo 🐱‍🏍
 
-https://jdlopez-dev.github.io/Migas-amigas/index.html
+https://juan4dev.github.io/Migas-amigas/index.html
 
 ### Requisitos 🔧
 
